@@ -1,0 +1,22 @@
+body{
+ margin:50px;
+}
+
+main{
+ display: flex;
+ justify-content: flex-start;
+ flex-wrap: wrap-reverse;
+ gap: 20px;
+ width:100%;
+ background-color: orange;
+ align-items:flex-end;
+}
+
+main *{
+ flex:1 1 300px;
+}
+
+img,p{
+ width: 50%;
+ object-fit: contain;
+}
